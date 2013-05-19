@@ -10,9 +10,9 @@ Lightweight jQuery plugin built to add two features to Google Code Prettify
 2. Option to add code to clipboard
 
 
-To use, download the JS (either uncompressed or min version) and CSS files, and link to them in the HEAD section of your page
+To use, download either the uncompressed or minimized/optimized JS and CSS files, and link to them in the HEAD section of your page
 
-The links should be placed AFTER referencing jQuery
+The reference to the JS should be placed AFTER referencing jQuery
 
 The plugin has been tested using jQuery 2.0.0, though is likely compatible down to 1.8.x
 
