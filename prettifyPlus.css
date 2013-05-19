@@ -1,0 +1,40 @@
+div.prettifyPlus{
+    position:relative;
+    margin:0px;
+    padding:0px;
+}
+div.prettifyPlus div.pp-menu{
+	position:absolute;
+	top:5px;
+	right:5px;
+	z-index:99;
+	display:inline-block;
+    background:#000;
+}
+div.prettifyPlus div.pp-menu a{
+    display:inline-block;
+    margin:0 5px;
+    opacity:.5;
+    transition:opacity 200ms linear;
+    position:relative;
+    color:#fff;
+    text-decoration:none;
+    font-size:9px;
+    text-transform:uppercase;
+}
+div.prettifyPlus div.pp-menu a:hover{
+    opacity:1;
+}
+div.prettifyPlus textarea{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    opacity:1;
+    display:none;
+	overflow:hidden;
+    margin:0px;
+    z-index:98;
+    resize:none;
+}
